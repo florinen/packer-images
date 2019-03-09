@@ -1,13 +1,11 @@
-"builders": [
-    {
+"builders": [{
     "type": "amazon-ebs",
     "region": "eu-west-1",
     "source_ami": "ami-0ff760d16d9497662",
     "instance_type": "t2.micro",
     "ssh_username": "centos",
     "ami_name": "florin-{{timestamp}}"
-}
-],
+}],
 "provisioners": [
     {
     "type": "shell",
