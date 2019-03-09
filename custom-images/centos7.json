@@ -40,9 +40,7 @@
             "sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key",
             "sudo yum install jenkins -y",
             "sudo systemctl start jenkins",
-            "sudo systemctl enable jenkins",
-            "sudo firewall-cmd --permanent --zone=public --add-port=8080/tcpsudo firewall-cmd --reload",
-            "sudo firewall-cmd --reload"
+            "sudo systemctl enable jenkins"
     ]
 },
 
